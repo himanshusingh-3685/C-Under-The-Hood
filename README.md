@@ -4,8 +4,6 @@
 1. Stack is used to store return address, local variables and return values.
 2. Stack grows downwords
 3. Only the function to which stack is assigned can access its memory
-4. ISO 26262 compliant
-
 
 ## Heap
 1. Heap is used to store malloc, calloc and relloc memory
@@ -15,4 +13,5 @@
 
 ## Stack Vs Heap Collision
 1. As stack grows downwards and heap grows upward, it they grow beyond thier size they both can collide.
+
 2. It leads to undefined behavior such as memory corruption, faults and exception
